@@ -1,5 +1,6 @@
-Please enable Javascript!
+<h3 id="helloworld">Please enable Javascript!</h3>
 
+<script>
 <script>
   if(location.href.indexOf('?') != -1)
     fetch('./data.json')
@@ -11,7 +12,7 @@ Please enable Javascript!
           ).toLowerCase()
       )];
     })
-    .catch(err => console.err(err))
+    .catch(err => console.error(err))
   else
-    console.err('Please provide argument!')
+    document.getElementById("helloworld").innerHTML = 'Please provide argument!'
 </script>
