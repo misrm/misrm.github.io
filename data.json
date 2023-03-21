@@ -2,10 +2,8 @@
   "target" : {
     "google" : "https://google.com",
     "yahoo" : "https://tw.yahoo.com",
-    "zoom1" : "https://zoom.com"
+    "zoom" : "https://zoom.us/j/98288688040"
+    "zoom1" : "https://zoom.us/j/98288688040"
   },
-  "alias" : {
-    "gooogle" : "google",
-    "zoom" : "zoom1"
-  }
+  "alias" : {}
 }
