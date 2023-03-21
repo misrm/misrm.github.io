@@ -5,7 +5,7 @@ Please enable Javascript!
     fetch('./data.json')
     .then(res => res.json())
     .then(res => {
-      location.href = res.redirect[decodeURI(
+      location.href = res['target'][decodeURI(
           location.href.slice(
               location.href.indexOf('?') +1
           ).toLowerCase()
